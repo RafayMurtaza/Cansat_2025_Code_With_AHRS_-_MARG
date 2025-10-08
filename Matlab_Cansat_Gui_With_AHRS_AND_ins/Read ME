@@ -1,2 +1,10 @@
 The maority of code here is b=provided by suparco i have added AHRS filter for orientation estimation and the built in matlab insMARG
 The insMARG is going to help us in POSE estimation
+
+---------------------------------------------------------------------------
+Now we have data that i collected from my cansat by keeping it stationary for noise detection run the callirations_call.m file and it will
+read the data in sheet and give the noise levels
+
+Now run main.m and main.m will load the gui provided by SUPARCO and 2 graphs 3d realtime ones
+one will show the orientation and second will show the POSE both in world transform NED format
+Also It is reccomended to have gps connected
